@@ -1,0 +1,90 @@
+{
+  "name": "Anathazerine",
+  "title": "Anathazerïne Compendiums",
+  "description": "Compendiums pour campagne Anathezerïne",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9.269",
+  "system": [
+    "cof"
+  ],
+  "author": "Fumble",
+  "version": "22.11.01",
+  "packs": [
+    {
+      "name": "anathazerine_scenes",
+      "label": "Anathazerïne",
+      "path": "./packs/anathazerine_scenes.db",
+      "type": "Scene",
+      "tag": "scene"
+    },
+    {
+      "name": "anathazerine_actors",
+      "label": "Anathazerïne",
+      "path": "./packs/anathazerine_actors.db",
+      "type": "Actor",
+      "system": "cof",
+      "tag": "encounter"
+    },
+    {
+      "name": "anathazerine_items",
+      "label": "Anathazerïne",
+      "path": "./packs/anathazerine_items.db",
+      "type": "Item",
+      "system": "cof"
+    },
+    {
+      "name": "anathazerine_journalentries",
+      "label": "Anathazerïne",
+      "path": "./packs/anathazerine_journalentries.db",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "anathazerine_rolltables",
+      "label": "Anathazerïne",
+      "path": "./packs/anathazerine_rolltables.db",
+      "type": "RollTable"
+    },
+    {
+      "name": "anathazerine_playlists",
+      "label": "Anathazerïne",
+      "path": "./packs/anathazerine_playlists.db",
+      "type": "Playlist"
+    },
+    {
+      "name": "anathazerine_macros",
+      "label": "Anathazerïne",
+      "path": "./packs/anathazerine_macros.db",
+      "type": "Macro"
+    },
+    {
+      "name": "anathazerine_cards",
+      "label": "Anathazerïne",
+      "path": "./packs/anathazerine_cards.db",
+      "type": "Cards"
+    },
+    {
+      "name": "anathazerine_adventures",
+      "label": "Anathazerïne",
+      "path": "./packs/anathazerine_adventures.db",
+      "type": "Adventure",
+      "system": "cof"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "monks-enhanced-journal"
+    },
+    {
+      "name": "monks-little-details"
+    },
+    {
+      "name": "monks-scene-navigation"
+    },
+    {
+      "name": "monks-active-tiles"
+    },
+    {
+      "name": "compendium-folders"
+    }
+  ]
+}
