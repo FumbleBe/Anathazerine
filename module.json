@@ -8,7 +8,7 @@
     "cof"
   ],
   "author": "Fumble",
-  "version": "22.11.01",
+  "version": "#{VERSION}#",
   "packs": [
     {
       "name": "anathazerine_scenes",
