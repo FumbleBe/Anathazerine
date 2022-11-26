@@ -8,7 +8,7 @@
     "cof"
   ],
   "author": "Fumble",
-  "version": "22.11.01",
+  "version": "#{VERSION}#",
   "packs": [
     {
       "name": "anathazerine_scenes",
@@ -87,8 +87,8 @@
       "name": "compendium-folders"
     }
   ],
-  "url": "https://github.com/FumbleBe/Anathazerine",
-  "manifest": "https://github.com/FumbleBe/Anathazerine/releases/latest/download/module.json",
-  "download": "https://github.com/FumbleBe/Anathazerine/releases/download/v22.11.01/module.zip",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "readme": "README.md"
 }
